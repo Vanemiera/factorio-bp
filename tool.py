@@ -4,6 +4,8 @@ import json
 from pprint import pprint
 from dataclasses import dataclass
 
+INDENT = 1
+
 def decode(infile, outfile):
     raw_data = 0
 
@@ -17,7 +19,7 @@ def decode(infile, outfile):
     data = json.loads(json_string)
 
     with open(outfile, 'w') as f:
-        json.dump(data, f, indent=4, sort_keys=False)
+        json.dump(data, f, indent=INDENT, sort_keys=False)
 
 def decodes(raw_data):
     version = raw_data[0]
@@ -38,7 +40,12 @@ def encodes(infile):
     
     return b64_data
 
-def clipboard_read():
+def clip(file, *args, **kwargs):
+    import pandas as pd
+    df = pd.DataFrame([encodes(file)])
+    df.to_clipboard(index=False, header=False)
+
+def unclip(*args, **kwargs):
     import pandas as pd
     df = pd.read_clipboard()
     data = decodes(df.columns[0])
@@ -46,23 +53,12 @@ def clipboard_read():
         label =  data['blueprint']['label']
         filename = label.replace(' ', '_').lower()
         with open(f'blueprints/{filename}.json', 'w') as f:
-            json.dump(data, f, indent=2, sort_keys=False)
+            json.dump(data, f, indent=INDENT, sort_keys=False)
     elif 'blueprint_book' in data:
         label =  data['blueprint_book']['label']
         filename = label.replace(' ', '_').lower()
         with open(f'books/{filename}.json', 'w') as f:
-            json.dump(data, f, indent=2, sort_keys=False)
-
-def clipboard_write(json_file):
-    import pandas as pd
-    df = pd.DataFrame([encodes(json_file)])
-    df.to_clipboard(index=False, header=False)
-
-def clip(file, *args, **kwargs):
-    clipboard_write(file)
-
-def unclip(*args, **kwargs):
-    clipboard_read()
+            json.dump(data, f, indent=INDENT, sort_keys=False)
     # decision = input('Overwrite existing file? (y/n):')
     # if decision == 'y':
     #     print('Writing...')
@@ -81,6 +77,17 @@ def zipcollection(*args, **kwargs):
             data = encodes(f).encode('utf-8')
             with bundle.open(f[:-4]+'txt', mode='w') as bp:
                 bp.write(data)
+
+def unbundle(file, *args, **kwargs):
+    with open(file, mode='r') as book:
+        data = json.loads(book.read())
+        for blueprint in data['blueprint_book']['blueprints']:
+            del blueprint['index']
+            label =  blueprint['blueprint']['label']
+            print(f'Unpacking "{label}"...')
+            filename = label.replace(' ', '_').lower()
+            with open(f'blueprints/{filename}.json', 'w') as f:
+                json.dump(blueprint, f, indent=INDENT, sort_keys=False)
 
 def main():
     """
@@ -107,6 +114,10 @@ def main():
 
     parser_zip = subparsers.add_parser('zip')
     parser_zip.set_defaults(func=zipcollection)
+
+    parser_unbundle = subparsers.add_parser('unbundle')
+    parser_unbundle.set_defaults(func=unbundle)
+    parser_unbundle.add_argument('file', type=str, help='book file to unbundle')
 
     args = parser_main.parse_args()
     if args.func:

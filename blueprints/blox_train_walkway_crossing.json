@@ -1,0 +1,811 @@
+{
+ "blueprint": {
+  "icons": [
+   {
+    "signal": {
+     "type": "item",
+     "name": "rail"
+    },
+    "index": 1
+   },
+   {
+    "signal": {
+     "type": "item",
+     "name": "gate"
+    },
+    "index": 2
+   }
+  ],
+  "entities": [
+   {
+    "entity_number": 1,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": -6.5
+    }
+   },
+   {
+    "entity_number": 2,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 3,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 4,
+    "name": "gate",
+    "position": {
+     "x": -2.5,
+     "y": -6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 5,
+    "name": "gate",
+    "position": {
+     "x": 0.5,
+     "y": -6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 6,
+    "name": "gate",
+    "position": {
+     "x": -0.5,
+     "y": -6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 7,
+    "name": "rail-chain-signal",
+    "position": {
+     "x": 2.5,
+     "y": -5.5
+    },
+    "direction": 2,
+    "control_behavior": {
+     "red_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     },
+     "orange_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 25
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 8,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -6.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 25
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 9,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 10,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": -4.5
+    }
+   },
+   {
+    "entity_number": 11,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": -4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 12,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 13,
+    "name": "straight-rail",
+    "position": {
+     "x": -2,
+     "y": -4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 14,
+    "name": "straight-rail",
+    "position": {
+     "x": 0,
+     "y": -4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 15,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -4.5
+    }
+   },
+   {
+    "entity_number": 16,
+    "name": "straight-rail",
+    "position": {
+     "x": 2,
+     "y": -4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 17,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 18,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -4.5,
+     "y": -2.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 19
+       },
+       {
+        "entity_id": 25
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 19,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 18
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 20,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": -1.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    }
+   },
+   {
+    "entity_number": 21,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 22,
+    "name": "gate",
+    "position": {
+     "x": -2.5,
+     "y": -1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 23,
+    "name": "gate",
+    "position": {
+     "x": 0.5,
+     "y": -1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 24,
+    "name": "gate",
+    "position": {
+     "x": -0.5,
+     "y": -1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 25,
+    "name": "small-electric-pole",
+    "position": {
+     "x": 2.5,
+     "y": -2.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 18
+       },
+       {
+        "entity_id": 8
+       },
+       {
+        "entity_id": 7
+       },
+       {
+        "entity_id": 26
+       },
+       {
+        "entity_id": 27
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 26,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 25
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 27,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -1.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 25
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 28,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 29,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 30,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 31,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 32,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -4.5,
+     "y": 2.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 33
+       },
+       {
+        "entity_id": 34
+       },
+       {
+        "entity_id": 39
+       },
+       {
+        "entity_id": 50
+       },
+       {
+        "entity_id": 51
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 33,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": 1.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 32
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 34,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": 2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 32
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 35,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": 1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 36,
+    "name": "gate",
+    "position": {
+     "x": -2.5,
+     "y": 1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 37,
+    "name": "gate",
+    "position": {
+     "x": 0.5,
+     "y": 1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 38,
+    "name": "gate",
+    "position": {
+     "x": -0.5,
+     "y": 1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 39,
+    "name": "small-electric-pole",
+    "position": {
+     "x": 2.5,
+     "y": 2.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 32
+       },
+       {
+        "entity_id": 41
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 40,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 1.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    }
+   },
+   {
+    "entity_number": 41,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 39
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 42,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": 4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 43,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 44,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 45,
+    "name": "straight-rail",
+    "position": {
+     "x": -2,
+     "y": 4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 46,
+    "name": "straight-rail",
+    "position": {
+     "x": 0,
+     "y": 4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 47,
+    "name": "straight-rail",
+    "position": {
+     "x": 2,
+     "y": 4
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 48,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 49,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 50,
+    "name": "rail-chain-signal",
+    "position": {
+     "x": -4.5,
+     "y": 5.5
+    },
+    "direction": 6,
+    "control_behavior": {
+     "red_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     },
+     "orange_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 32
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 51,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": 6.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 32
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 52,
+    "name": "stone-wall",
+    "position": {
+     "x": -3.5,
+     "y": 5.5
+    }
+   },
+   {
+    "entity_number": 53,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": 6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 54,
+    "name": "gate",
+    "position": {
+     "x": -2.5,
+     "y": 6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 55,
+    "name": "gate",
+    "position": {
+     "x": 0.5,
+     "y": 6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 56,
+    "name": "gate",
+    "position": {
+     "x": -0.5,
+     "y": 6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 57,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 6.5
+    }
+   },
+   {
+    "entity_number": 58,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 5.5
+    }
+   }
+  ],
+  "item": "blueprint",
+  "label": "Blox Train Walkway Crossing",
+  "version": 73017851904
+ }
+}
