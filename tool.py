@@ -1,0 +1,118 @@
+import zlib
+import base64
+import json
+from pprint import pprint
+from dataclasses import dataclass
+
+def decode(infile, outfile):
+    raw_data = 0
+
+    with open(infile, 'r') as f:
+        raw_data = f.read()
+
+    version = raw_data[0]
+    raw_bytes = base64.b64decode(raw_data[1:])
+    decompressed_bytes = zlib.decompress(raw_bytes)
+    json_string = decompressed_bytes.decode('utf-8')
+    data = json.loads(json_string)
+
+    with open(outfile, 'w') as f:
+        json.dump(data, f, indent=4, sort_keys=False)
+
+def decodes(raw_data):
+    version = raw_data[0]
+    raw_bytes = base64.b64decode(raw_data[1:])
+    decompressed_bytes = zlib.decompress(raw_bytes)
+    json_string = decompressed_bytes.decode('utf-8')
+    data = json.loads(json_string)
+    return data
+
+def encodes(infile):
+    with open(infile, 'r') as f:
+        data = json.load(f)
+
+    json_compact = json.dumps(data)
+    bytes_uncompressed = json_compact.encode('utf-8')
+    bytes_compressed = zlib.compress(bytes_uncompressed, 9)
+    b64_data = '0' + base64.b64encode(bytes_compressed).decode('utf-8')
+    
+    return b64_data
+
+def clipboard_read():
+    import pandas as pd
+    df = pd.read_clipboard()
+    data = decodes(df.columns[0])
+    if 'blueprint' in data:
+        label =  data['blueprint']['label']
+        filename = label.replace(' ', '_').lower()
+        with open(f'blueprints/{filename}.json', 'w') as f:
+            json.dump(data, f, indent=2, sort_keys=False)
+    elif 'blueprint_book' in data:
+        label =  data['blueprint_book']['label']
+        filename = label.replace(' ', '_').lower()
+        with open(f'books/{filename}.json', 'w') as f:
+            json.dump(data, f, indent=2, sort_keys=False)
+
+def clipboard_write(json_file):
+    import pandas as pd
+    df = pd.DataFrame([encodes(json_file)])
+    df.to_clipboard(index=False, header=False)
+
+def clip(file, *args, **kwargs):
+    clipboard_write(file)
+
+def unclip(*args, **kwargs):
+    clipboard_read()
+    # decision = input('Overwrite existing file? (y/n):')
+    # if decision == 'y':
+    #     print('Writing...')
+    # elif decision == 'n':
+    #     print('Aborting...')
+    #     return
+    # else:
+    #     print('Invalid input, aborting...')
+    #     return
+
+def zipcollection(*args, **kwargs):
+    from glob import glob
+    from zipfile import ZipFile
+    with ZipFile('collection.zip', mode='w') as bundle:
+        for f in glob('blueprints/*.json') + glob('books/*.json'):
+            data = encodes(f).encode('utf-8')
+            with bundle.open(f[:-4]+'txt', mode='w') as bp:
+                bp.write(data)
+
+def main():
+    """
+    Sub commands:
+    * clip (convert and copy blueprint data to clipboard)
+    * unclip (convert clipboard data and save to disk)
+    * zipcollection (converts all json files to bp and outputs a zip)
+    * bundle (merges blueprints to a book)
+    * unbundle (saves blueprints in a book as separate files)
+    """
+    import argparse
+
+    parser_main = argparse.ArgumentParser()
+    parser_main.set_defaults(func=False)
+
+    subparsers = parser_main.add_subparsers()
+
+    parser_clip = subparsers.add_parser('clip')
+    parser_clip.set_defaults(func=clip)
+    parser_clip.add_argument('file', type=str, help='file to copy to clipboard')
+
+    parser_unclip = subparsers.add_parser('unclip')
+    parser_unclip.set_defaults(func=unclip)
+
+    parser_zip = subparsers.add_parser('zip')
+    parser_zip.set_defaults(func=zipcollection)
+
+    args = parser_main.parse_args()
+    if args.func:
+        args.func(**vars(args))
+    else:
+        parser_main.print_help()
+
+if __name__ == "__main__":
+    main()
