@@ -1,0 +1,7676 @@
+{
+ "blueprint": {
+  "icons": [
+   {
+    "signal": {
+     "type": "item",
+     "name": "solar-panel"
+    },
+    "index": 1
+   }
+  ],
+  "entities": [
+   {
+    "entity_number": 1,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -22,
+     "y": -22
+    }
+   },
+   {
+    "entity_number": 2,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 3,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 4,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 5,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 6,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 7,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 8,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 9,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 10,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 11,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 12,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 13,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 14,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 15,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -20
+    }
+   },
+   {
+    "entity_number": 16,
+    "name": "small-electric-pole",
+    "position": {
+     "x": 21,
+     "y": -22
+    }
+   },
+   {
+    "entity_number": 17,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 18,
+    "name": "substation",
+    "position": {
+     "x": -17.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 19,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 20,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 21,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 22,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 23,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 24,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 25,
+    "name": "substation",
+    "position": {
+     "x": -0.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 26,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 27,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 28,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 29,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 30,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 31,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 32,
+    "name": "substation",
+    "position": {
+     "x": 16.5,
+     "y": -17.5
+    }
+   },
+   {
+    "entity_number": 33,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -17
+    }
+   },
+   {
+    "entity_number": 34,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 35,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 36,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 37,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 38,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 39,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 40,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 41,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 42,
+    "name": "accumulator",
+    "position": {
+     "x": -0.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 43,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 44,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 45,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 46,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 47,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 48,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 49,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": -15.5
+    }
+   },
+   {
+    "entity_number": 50,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -14
+    }
+   },
+   {
+    "entity_number": 51,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 52,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 53,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 54,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 55,
+    "name": "accumulator",
+    "position": {
+     "x": -0.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 56,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 57,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 58,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 59,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": -13.5
+    }
+   },
+   {
+    "entity_number": 60,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 61,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 62,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 63,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 64,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 65,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 66,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 67,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 68,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 69,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 70,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 71,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 72,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 73,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 74,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 75,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 76,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 77,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 78,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 79,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 80,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 81,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 82,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 83,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 84,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 85,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 86,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 87,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 88,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 89,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 90,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 91,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 92,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 93,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 94,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 95,
+    "name": "accumulator",
+    "position": {
+     "x": -1.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 96,
+    "name": "accumulator",
+    "position": {
+     "x": 0.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 97,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 98,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 99,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 100,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 101,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 102,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 103,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 104,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 105,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 106,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 107,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 108,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 109,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 110,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 111,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 112,
+    "name": "accumulator",
+    "position": {
+     "x": -1.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 113,
+    "name": "substation",
+    "position": {
+     "x": 0.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 114,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 115,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 116,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 117,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 118,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 119,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 120,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 121,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 122,
+    "name": "substation",
+    "position": {
+     "x": -17.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 123,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 124,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 125,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 126,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 127,
+    "name": "roboport",
+    "position": {
+     "x": -0.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 128,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 129,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 130,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 131,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 132,
+    "name": "substation",
+    "position": {
+     "x": 16.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 133,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 134,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 135,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 136,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 137,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 138,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 139,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 140,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 141,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 142,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 143,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 144,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 145,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 146,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 147,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": 1.5
+    }
+   },
+   {
+    "entity_number": 148,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 149,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 150,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 151,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 152,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 153,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 154,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 155,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 156,
+    "name": "substation",
+    "position": {
+     "x": -1.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 157,
+    "name": "accumulator",
+    "position": {
+     "x": 0.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 158,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 159,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": 2.5
+    }
+   },
+   {
+    "entity_number": 160,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 161,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 162,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 163,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 164,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 165,
+    "name": "accumulator",
+    "position": {
+     "x": -5.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 166,
+    "name": "accumulator",
+    "position": {
+     "x": -3.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 167,
+    "name": "accumulator",
+    "position": {
+     "x": -1.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 168,
+    "name": "accumulator",
+    "position": {
+     "x": 0.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 169,
+    "name": "accumulator",
+    "position": {
+     "x": 2.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 170,
+    "name": "accumulator",
+    "position": {
+     "x": 4.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 171,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 172,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 173,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 174,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 175,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 176,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 177,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 178,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 179,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 180,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 181,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 182,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 183,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 184,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 185,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 186,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 187,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 188,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 189,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 190,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 191,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 192,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 193,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 194,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 195,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 196,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 197,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 198,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 199,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 200,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 201,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 202,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 203,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 204,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 205,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 206,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 207,
+    "name": "accumulator",
+    "position": {
+     "x": -0.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 208,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 209,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 210,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 211,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 212,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 213,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 214,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": 12.5
+    }
+   },
+   {
+    "entity_number": 215,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 13
+    }
+   },
+   {
+    "entity_number": 216,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 217,
+    "name": "accumulator",
+    "position": {
+     "x": -17.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 218,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 219,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 220,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 221,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 222,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 223,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 224,
+    "name": "accumulator",
+    "position": {
+     "x": -0.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 225,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 226,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 227,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 228,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 229,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 230,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 231,
+    "name": "accumulator",
+    "position": {
+     "x": 16.5,
+     "y": 14.5
+    }
+   },
+   {
+    "entity_number": 232,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 16
+    }
+   },
+   {
+    "entity_number": 233,
+    "name": "substation",
+    "position": {
+     "x": -17.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 234,
+    "name": "accumulator",
+    "position": {
+     "x": -15.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 235,
+    "name": "accumulator",
+    "position": {
+     "x": -13.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 236,
+    "name": "accumulator",
+    "position": {
+     "x": -2.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 237,
+    "name": "substation",
+    "position": {
+     "x": -0.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 238,
+    "name": "accumulator",
+    "position": {
+     "x": 1.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 239,
+    "name": "accumulator",
+    "position": {
+     "x": 12.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 240,
+    "name": "accumulator",
+    "position": {
+     "x": 14.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 241,
+    "name": "substation",
+    "position": {
+     "x": 16.5,
+     "y": 16.5
+    }
+   },
+   {
+    "entity_number": 242,
+    "name": "solar-panel",
+    "position": {
+     "x": -20,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 243,
+    "name": "solar-panel",
+    "position": {
+     "x": -17,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 244,
+    "name": "solar-panel",
+    "position": {
+     "x": -14,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 245,
+    "name": "solar-panel",
+    "position": {
+     "x": -11,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 246,
+    "name": "solar-panel",
+    "position": {
+     "x": -8,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 247,
+    "name": "solar-panel",
+    "position": {
+     "x": -5,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 248,
+    "name": "solar-panel",
+    "position": {
+     "x": -2,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 249,
+    "name": "solar-panel",
+    "position": {
+     "x": 1,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 250,
+    "name": "solar-panel",
+    "position": {
+     "x": 4,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 251,
+    "name": "solar-panel",
+    "position": {
+     "x": 7,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 252,
+    "name": "solar-panel",
+    "position": {
+     "x": 10,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 253,
+    "name": "solar-panel",
+    "position": {
+     "x": 13,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 254,
+    "name": "solar-panel",
+    "position": {
+     "x": 16,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 255,
+    "name": "solar-panel",
+    "position": {
+     "x": 19,
+     "y": 19
+    }
+   },
+   {
+    "entity_number": 256,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -22,
+     "y": 21
+    }
+   },
+   {
+    "entity_number": 257,
+    "name": "small-electric-pole",
+    "position": {
+     "x": 21,
+     "y": 21
+    }
+   }
+  ],
+  "tiles": [
+   {
+    "position": {
+     "x": -27,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -27,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -26,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -25,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -24,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -23,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -22,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -21,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -20,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -19,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -18,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -17,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -16,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -15,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -14,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -13,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 13,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 14,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 15,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 16,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 17,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 18,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 19,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 20,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 21,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 22,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 23,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 24,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 25,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -27
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -26
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 13
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 14
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 15
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 16
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 17
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 18
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 19
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 20
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 21
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 22
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 23
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 24
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 25
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 26,
+     "y": 26
+    },
+    "name": "refined-concrete"
+   }
+  ],
+  "item": "blueprint",
+  "label": "Blox Solar Array",
+  "version": 73018114051
+ }
+}
