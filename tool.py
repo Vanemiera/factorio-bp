@@ -89,6 +89,36 @@ def unbundle(file, *args, **kwargs):
             with open(f'blueprints/{filename}.json', 'w') as f:
                 json.dump(blueprint, f, indent=INDENT, sort_keys=False)
 
+def bundle(pattern, label, *args, **kwargs):
+    print(f'pattern:{pattern}')
+    print(f'label:{label}')
+
+    from glob import glob
+
+    book = {'blueprint_book':{
+        'blueprints': [],
+        'item': 'blueprint-book',
+        'label': label,
+        'active_index': 0,
+        'version': 0}}
+    index = 0
+    bookfilename = label.replace(' ', '_').lower()
+
+    for filename in glob(pattern):
+        print(f'Adding "{filename}"...')
+        with open(filename, 'r') as f:
+            blueprint = json.load(f)
+            blueprint['index'] = index
+            index += 1
+            book['blueprint_book']['blueprints'].append(blueprint)
+
+    blueprints = iter(book['blueprint_book']['blueprints'])
+    print_versions = (bp['blueprint']['version'] for bp in blueprints)
+    book['blueprint_book']['version'] = max(print_versions)
+
+    with open(f'books/{bookfilename}.json', 'w') as f:
+        json.dump(book, f, indent=INDENT, sort_keys=False)
+
 def main():
     """
     Sub commands:
@@ -118,6 +148,11 @@ def main():
     parser_unbundle = subparsers.add_parser('unbundle')
     parser_unbundle.set_defaults(func=unbundle)
     parser_unbundle.add_argument('file', type=str, help='book file to unbundle')
+
+    parser_unbundle = subparsers.add_parser('bundle')
+    parser_unbundle.set_defaults(func=bundle)
+    parser_unbundle.add_argument('pattern', type=str, help='Glob pattern of blueprints')
+    parser_unbundle.add_argument('label', type=str, help='Book label')
 
     args = parser_main.parse_args()
     if args.func:
