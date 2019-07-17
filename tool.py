@@ -40,6 +40,27 @@ def encodes(infile):
     
     return b64_data
 
+def winGetInstall():
+    import winreg
+    installFolder = ''
+    WINREGLOC = 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall'
+    keys = [winreg.HKEY_LOCAL_MACHINE]
+    for key in WINREGLOC.split('/'):
+        keys.append(winreg.OpenKey(keys[-1], key))
+    softwareList = keys[-1]
+    length = winreg.QueryInfoKey(softwareList)[0]
+    software = (winreg.EnumKey(softwareList, index) for index in range(length))
+    steamApps = [app for app in software if app.startswith('Steam App')]
+    for app in steamApps:
+        with winreg.OpenKey(softwareList, app) as entry:
+            name = winreg.QueryValueEx(entry, 'DisplayName')[0]
+            if name == 'Factorio':
+                installFolder = winreg.QueryValueEx(entry, 'InstallLocation')[0]
+                break
+    for hkey in reversed(keys[1:]):
+        winreg.CloseKey(hkey)
+    return installFolder
+
 def clip(file, *args, **kwargs):
     import pandas as pd
     df = pd.DataFrame([encodes(file)])
