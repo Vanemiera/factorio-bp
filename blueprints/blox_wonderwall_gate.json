@@ -1,0 +1,1986 @@
+{
+ "blueprint": {
+  "icons": [
+   {
+    "signal": {
+     "type": "item",
+     "name": "stone-wall"
+    },
+    "index": 1
+   },
+   {
+    "signal": {
+     "type": "item",
+     "name": "gate"
+    },
+    "index": 2
+   }
+  ],
+  "entities": [
+   {
+    "entity_number": 1,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": -12
+    }
+   },
+   {
+    "entity_number": 2,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -12
+    }
+   },
+   {
+    "entity_number": 3,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": -12
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 4,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -12
+    }
+   },
+   {
+    "entity_number": 5,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -12
+    }
+   },
+   {
+    "entity_number": 6,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 7,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": -10
+    }
+   },
+   {
+    "entity_number": 8,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -3,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 9,
+    "name": "laser-turret",
+    "position": {
+     "x": -0.5,
+     "y": -9.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 10,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 11,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -10
+    }
+   },
+   {
+    "entity_number": 12,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": -11
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 13,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": -10
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 14,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 15,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -10
+    }
+   },
+   {
+    "entity_number": 16,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -11
+    }
+   },
+   {
+    "entity_number": 17,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -10
+    }
+   },
+   {
+    "entity_number": 18,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": -9
+    }
+   },
+   {
+    "entity_number": 19,
+    "name": "flamethrower-turret",
+    "position": {
+     "x": -1,
+     "y": -7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 20,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -9
+    }
+   },
+   {
+    "entity_number": 21,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 22,
+    "name": "gun-turret",
+    "position": {
+     "x": 4.5,
+     "y": -8.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 23,
+    "name": "burner-inserter",
+    "position": {
+     "x": 3,
+     "y": -8
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 24,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": -9
+    },
+    "direction": 4,
+    "type": "input"
+   },
+   {
+    "entity_number": 25,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -9
+    }
+   },
+   {
+    "entity_number": 26,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 27,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -9
+    }
+   },
+   {
+    "entity_number": 28,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 29,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": -6
+    }
+   },
+   {
+    "entity_number": 30,
+    "name": "laser-turret",
+    "position": {
+     "x": -0.5,
+     "y": -5.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 31,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -7
+    }
+   },
+   {
+    "entity_number": 32,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -6
+    }
+   },
+   {
+    "entity_number": 33,
+    "name": "gun-turret",
+    "position": {
+     "x": 4.5,
+     "y": -6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 34,
+    "name": "burner-inserter",
+    "position": {
+     "x": 3,
+     "y": -7
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 35,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": -6
+    },
+    "direction": 4,
+    "type": "output"
+   },
+   {
+    "entity_number": 36,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -7
+    }
+   },
+   {
+    "entity_number": 37,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -6
+    }
+   },
+   {
+    "entity_number": 38,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -7
+    }
+   },
+   {
+    "entity_number": 39,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -6
+    }
+   },
+   {
+    "entity_number": 40,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": -2,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 41,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -3,
+     "y": -4
+    }
+   },
+   {
+    "entity_number": 42,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 43,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": -4
+    }
+   },
+   {
+    "entity_number": 44,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": -5
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 45,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": -4
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 46,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 47,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -4
+    }
+   },
+   {
+    "entity_number": 48,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -5
+    }
+   },
+   {
+    "entity_number": 49,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -4
+    }
+   },
+   {
+    "entity_number": 50,
+    "name": "underground-belt",
+    "position": {
+     "x": 2,
+     "y": -3
+    },
+    "type": "output"
+   },
+   {
+    "entity_number": 51,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": -3
+    },
+    "direction": 4,
+    "type": "input"
+   },
+   {
+    "entity_number": 52,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": -3
+    }
+   },
+   {
+    "entity_number": 53,
+    "name": "gate",
+    "position": {
+     "x": 6,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 54,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": -3
+    }
+   },
+   {
+    "entity_number": 55,
+    "name": "gate",
+    "position": {
+     "x": 7,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 56,
+    "name": "gate",
+    "position": {
+     "x": 6,
+     "y": -1
+    }
+   },
+   {
+    "entity_number": 57,
+    "name": "gate",
+    "position": {
+     "x": 6,
+     "y": 0
+    }
+   },
+   {
+    "entity_number": 58,
+    "name": "gate",
+    "position": {
+     "x": 7,
+     "y": -1
+    }
+   },
+   {
+    "entity_number": 59,
+    "name": "gate",
+    "position": {
+     "x": 7,
+     "y": 0
+    }
+   },
+   {
+    "entity_number": 60,
+    "name": "underground-belt",
+    "position": {
+     "x": 2,
+     "y": 2
+    },
+    "type": "input"
+   },
+   {
+    "entity_number": 61,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": 2
+    },
+    "direction": 4,
+    "type": "output"
+   },
+   {
+    "entity_number": 62,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 2
+    }
+   },
+   {
+    "entity_number": 63,
+    "name": "gate",
+    "position": {
+     "x": 6,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 64,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 2
+    }
+   },
+   {
+    "entity_number": 65,
+    "name": "gate",
+    "position": {
+     "x": 7,
+     "y": 1
+    }
+   },
+   {
+    "entity_number": 66,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": -2,
+     "y": 4
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 67,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -3,
+     "y": 3
+    }
+   },
+   {
+    "entity_number": 68,
+    "name": "laser-turret",
+    "position": {
+     "x": -0.5,
+     "y": 4.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 69,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 70,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 3
+    }
+   },
+   {
+    "entity_number": 71,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": 4
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 72,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": 3
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 73,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 3
+    }
+   },
+   {
+    "entity_number": 74,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 75,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 3
+    }
+   },
+   {
+    "entity_number": 76,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 77,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": 5
+    }
+   },
+   {
+    "entity_number": 78,
+    "name": "flamethrower-turret",
+    "position": {
+     "x": -1,
+     "y": 6.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 79,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 6
+    }
+   },
+   {
+    "entity_number": 80,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 5
+    }
+   },
+   {
+    "entity_number": 81,
+    "name": "gun-turret",
+    "position": {
+     "x": 4.5,
+     "y": 5.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 82,
+    "name": "burner-inserter",
+    "position": {
+     "x": 3,
+     "y": 6
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 83,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": 5
+    },
+    "direction": 4,
+    "type": "input"
+   },
+   {
+    "entity_number": 84,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 6
+    }
+   },
+   {
+    "entity_number": 85,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 5
+    }
+   },
+   {
+    "entity_number": 86,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 5
+    }
+   },
+   {
+    "entity_number": 87,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 6
+    }
+   },
+   {
+    "entity_number": 88,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": 8
+    }
+   },
+   {
+    "entity_number": 89,
+    "name": "laser-turret",
+    "position": {
+     "x": -0.5,
+     "y": 8.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 90,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 8
+    }
+   },
+   {
+    "entity_number": 91,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 92,
+    "name": "gun-turret",
+    "position": {
+     "x": 4.5,
+     "y": 7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 93,
+    "name": "burner-inserter",
+    "position": {
+     "x": 3,
+     "y": 7
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 94,
+    "name": "underground-belt",
+    "position": {
+     "x": 3,
+     "y": 8
+    },
+    "direction": 4,
+    "type": "output"
+   },
+   {
+    "entity_number": 95,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 8
+    }
+   },
+   {
+    "entity_number": 96,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 97,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 8
+    }
+   },
+   {
+    "entity_number": 98,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 7
+    }
+   },
+   {
+    "entity_number": 99,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 100,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": 9
+    }
+   },
+   {
+    "entity_number": 101,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -3,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 102,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 103,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 9
+    }
+   },
+   {
+    "entity_number": 104,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": 10
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 105,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": 9
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 106,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 107,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 9
+    }
+   },
+   {
+    "entity_number": 108,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 10
+    }
+   },
+   {
+    "entity_number": 109,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 9
+    }
+   },
+   {
+    "entity_number": 110,
+    "name": "pipe",
+    "position": {
+     "x": -2,
+     "y": 11
+    }
+   },
+   {
+    "entity_number": 111,
+    "name": "transport-belt",
+    "position": {
+     "x": 2,
+     "y": 11
+    }
+   },
+   {
+    "entity_number": 112,
+    "name": "transport-belt",
+    "position": {
+     "x": 3,
+     "y": 11
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 113,
+    "name": "stone-wall",
+    "position": {
+     "x": 6,
+     "y": 11
+    }
+   },
+   {
+    "entity_number": 114,
+    "name": "stone-wall",
+    "position": {
+     "x": 7,
+     "y": 11
+    }
+   }
+  ],
+  "tiles": [
+   {
+    "position": {
+     "x": -8,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -12
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 3
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 8
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 9
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 10
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": 11
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 1,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 2,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 3,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 4,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 5,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 6,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -2
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": -1
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 0
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 7,
+     "y": 1
+    },
+    "name": "refined-concrete"
+   }
+  ],
+  "item": "blueprint",
+  "label": "Blox WonderWall Gate",
+  "version": 73018245120
+ }
+}
