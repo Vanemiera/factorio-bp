@@ -19,18 +19,37 @@
   "entities": [
    {
     "entity_number": 1,
-    "name": "stone-wall",
+    "name": "rail-chain-signal",
     "position": {
      "x": -5.5,
-     "y": -12.5
+     "y": -8.5
+    },
+    "control_behavior": {
+     "red_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     },
+     "orange_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 9
+       }
+      ]
+     }
     }
    },
    {
     "entity_number": 2,
     "name": "stone-wall",
     "position": {
-     "x": -6.5,
-     "y": -12.5
+     "x": -5.5,
+     "y": -7.5
     }
    },
    {
@@ -38,507 +57,7 @@
     "name": "stone-wall",
     "position": {
      "x": -6.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 4,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 5,
-    "name": "stone-wall",
-    "position": {
-     "x": -3.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 6,
-    "name": "stone-wall",
-    "position": {
-     "x": -4.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 7,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": -12.5
-    },
-    "direction": 4,
-    "type": "input"
-   },
-   {
-    "entity_number": 8,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -12.5
-    },
-    "type": "output"
-   },
-   {
-    "entity_number": 9,
-    "name": "stone-wall",
-    "position": {
-     "x": -2.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 10,
-    "name": "stone-wall",
-    "position": {
-     "x": -1.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 11,
-    "name": "stone-wall",
-    "position": {
-     "x": -0.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 12,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -11.5
-    }
-   },
-   {
-    "entity_number": 13,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -10.5
-    }
-   },
-   {
-    "entity_number": 14,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": -10.5
-    }
-   },
-   {
-    "entity_number": 15,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": -9.5
-    }
-   },
-   {
-    "entity_number": 16,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -9.5
-    }
-   },
-   {
-    "entity_number": 17,
-    "name": "gun-turret",
-    "position": {
-     "x": -4,
-     "y": -9
-    },
-    "direction": 6
-   },
-   {
-    "entity_number": 18,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": -10.5
-    },
-    "direction": 4,
-    "type": "output"
-   },
-   {
-    "entity_number": 19,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -10.5
-    },
-    "type": "input"
-   },
-   {
-    "entity_number": 20,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -9.5
-    },
-    "type": "output"
-   },
-   {
-    "entity_number": 21,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": -9.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 22,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -10.5
-    }
-   },
-   {
-    "entity_number": 23,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -9.5
-    }
-   },
-   {
-    "entity_number": 24,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": -8.5
-    }
-   },
-   {
-    "entity_number": 25,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -8.5
-    }
-   },
-   {
-    "entity_number": 26,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
      "y": -7.5
-    }
-   },
-   {
-    "entity_number": 27,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -7.5
-    }
-   },
-   {
-    "entity_number": 28,
-    "name": "gun-turret",
-    "position": {
-     "x": -4,
-     "y": -7
-    },
-    "direction": 6
-   },
-   {
-    "entity_number": 29,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
-     "y": -8.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 30,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": -8.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 31,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
-     "y": -7.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 32,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": -7.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 33,
-    "name": "small-electric-pole",
-    "position": {
-     "x": -0.5,
-     "y": -8.5
-    }
-   },
-   {
-    "entity_number": 34,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -8.5
-    }
-   },
-   {
-    "entity_number": 35,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -7.5
-    }
-   },
-   {
-    "entity_number": 36,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -5.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 37
-       },
-       {
-        "entity_id": 40
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 37,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": -5.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 36
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 38,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": -6.5
-    }
-   },
-   {
-    "entity_number": 39,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": -6.5
-    }
-   },
-   {
-    "entity_number": 40,
-    "name": "rail-chain-signal",
-    "position": {
-     "x": -4.5,
-     "y": -5.5
-    },
-    "direction": 2,
-    "control_behavior": {
-     "red_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     },
-     "orange_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 36
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 41,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -6.5
-    },
-    "type": "input"
-   },
-   {
-    "entity_number": 42,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -5.5
-    },
-    "type": "output"
-   },
-   {
-    "entity_number": 43,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": -5.5
-    },
-    "direction": 4,
-    "type": "input"
-   },
-   {
-    "entity_number": 44,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": -6.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 45,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -6.5
-    }
-   },
-   {
-    "entity_number": 46,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -5.5
-    }
-   },
-   {
-    "entity_number": 47,
-    "name": "gate",
-    "position": {
-     "x": 1.5,
-     "y": -6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 48,
-    "name": "gate",
-    "position": {
-     "x": 2.5,
-     "y": -6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 49,
-    "name": "gate",
-    "position": {
-     "x": 4.5,
-     "y": -6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 50,
-    "name": "gate",
-    "position": {
-     "x": 3.5,
-     "y": -6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 51,
-    "name": "rail-chain-signal",
-    "position": {
-     "x": 6.5,
-     "y": -5.5
-    },
-    "direction": 2,
-    "control_behavior": {
-     "red_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     },
-     "orange_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 86
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 52,
-    "name": "stone-wall",
-    "position": {
-     "x": 5.5,
-     "y": -6.5
     },
     "control_behavior": {
      "circuit_open_gate": true,
@@ -556,31 +75,334 @@
      "1": {
       "red": [
        {
-        "entity_id": 86
+        "entity_id": 9
        }
       ]
      }
     }
    },
    {
-    "entity_number": 53,
+    "entity_number": 4,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": -7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 5,
+    "name": "gate",
+    "position": {
+     "x": -4.5,
+     "y": -7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 6,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 7,
+    "name": "stone-wall",
+    "position": {
+     "x": -2.5,
+     "y": -7.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 9
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 8,
+    "name": "stone-wall",
+    "position": {
+     "x": -1.5,
+     "y": -7.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 9
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 9,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -2.5,
+     "y": -8.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 1
+       },
+       {
+        "entity_id": 3
+       },
+       {
+        "entity_id": 8
+       },
+       {
+        "entity_id": 7
+       },
+       {
+        "entity_id": 55
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 10,
+    "name": "stone-wall",
+    "position": {
+     "x": -0.5,
+     "y": -7.5
+    }
+   },
+   {
+    "entity_number": 11,
+    "name": "stone-wall",
+    "position": {
+     "x": 0.5,
+     "y": -7.5
+    }
+   },
+   {
+    "entity_number": 12,
+    "name": "small-electric-pole",
+    "position": {
+     "x": 2.5,
+     "y": -8.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 13
+       },
+       {
+        "entity_id": 61
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 13,
+    "name": "stone-wall",
+    "position": {
+     "x": 2.5,
+     "y": -7.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 12
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 14,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": -7.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    }
+   },
+   {
+    "entity_number": 15,
+    "name": "gate",
+    "position": {
+     "x": 4.5,
+     "y": -7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 16,
+    "name": "gate",
+    "position": {
+     "x": 3.5,
+     "y": -7.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 17,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": -8
+    }
+   },
+   {
+    "entity_number": 18,
+    "name": "stone-wall",
+    "position": {
+     "x": 6.5,
+     "y": -7.5
+    }
+   },
+   {
+    "entity_number": 19,
     "name": "stone-wall",
     "position": {
      "x": 5.5,
+     "y": -7.5
+    }
+   },
+   {
+    "entity_number": 20,
+    "name": "gate",
+    "position": {
+     "x": -6.5,
+     "y": -6.5
+    }
+   },
+   {
+    "entity_number": 21,
+    "name": "gate",
+    "position": {
+     "x": -6.5,
      "y": -5.5
     }
    },
    {
-    "entity_number": 54,
+    "entity_number": 22,
     "name": "straight-rail",
     "position": {
-     "x": -8,
-     "y": -4
-    },
-    "direction": 2
+     "x": -4,
+     "y": -6
+    }
    },
    {
-    "entity_number": 55,
+    "entity_number": 23,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -6.5
+    }
+   },
+   {
+    "entity_number": 24,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 25,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -6.5
+    }
+   },
+   {
+    "entity_number": 26,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 27,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": -6
+    }
+   },
+   {
+    "entity_number": 28,
+    "name": "gate",
+    "position": {
+     "x": 6.5,
+     "y": -6.5
+    }
+   },
+   {
+    "entity_number": 29,
+    "name": "gate",
+    "position": {
+     "x": 6.5,
+     "y": -5.5
+    }
+   },
+   {
+    "entity_number": 30,
     "name": "gate",
     "position": {
      "x": -6.5,
@@ -588,7 +410,7 @@
     }
    },
    {
-    "entity_number": 56,
+    "entity_number": 31,
     "name": "gate",
     "position": {
      "x": -6.5,
@@ -596,79 +418,390 @@
     }
    },
    {
-    "entity_number": 57,
-    "name": "gate",
-    "position": {
-     "x": -5.5,
-     "y": -3.5
-    }
-   },
-   {
-    "entity_number": 58,
-    "name": "gate",
-    "position": {
-     "x": -5.5,
-     "y": -4.5
-    }
-   },
-   {
-    "entity_number": 59,
-    "name": "straight-rail",
-    "position": {
-     "x": -6,
-     "y": -4
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 60,
+    "entity_number": 32,
     "name": "straight-rail",
     "position": {
      "x": -4,
      "y": -4
+    }
+   },
+   {
+    "entity_number": 33,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -4.5
+    }
+   },
+   {
+    "entity_number": 34,
+    "name": "gate",
+    "position": {
+     "x": -1.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 35,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -4.5
+    }
+   },
+   {
+    "entity_number": 36,
+    "name": "gate",
+    "position": {
+     "x": 1.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 37,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": -4
+    }
+   },
+   {
+    "entity_number": 38,
+    "name": "gate",
+    "position": {
+     "x": 6.5,
+     "y": -3.5
+    }
+   },
+   {
+    "entity_number": 39,
+    "name": "gate",
+    "position": {
+     "x": 6.5,
+     "y": -4.5
+    }
+   },
+   {
+    "entity_number": 40,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 41,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 42,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": -9.5,
+     "y": -1.5
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 43,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": -10.5,
+     "y": -1.5
     },
     "direction": 2
+   },
+   {
+    "entity_number": 44,
+    "name": "stone-wall",
+    "position": {
+     "x": -9.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 45,
+    "name": "stone-wall",
+    "position": {
+     "x": -10.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 46,
+    "name": "stone-wall",
+    "position": {
+     "x": -7.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 47,
+    "name": "stone-wall",
+    "position": {
+     "x": -8.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 48,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -8.5,
+     "y": -1.5
+    }
+   },
+   {
+    "entity_number": 49,
+    "name": "stone-wall",
+    "position": {
+     "x": -5.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 50,
+    "name": "stone-wall",
+    "position": {
+     "x": -6.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 51,
+    "name": "gate",
+    "position": {
+     "x": -3.5,
+     "y": -2.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 52,
+    "name": "gate",
+    "position": {
+     "x": -4.5,
+     "y": -2.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 53,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": -2
+    }
+   },
+   {
+    "entity_number": 54,
+    "name": "stone-wall",
+    "position": {
+     "x": -1.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    }
+   },
+   {
+    "entity_number": 55,
+    "name": "small-electric-pole",
+    "position": {
+     "x": -2.5,
+     "y": -1.5
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 9
+       },
+       {
+        "entity_id": 56
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 56,
+    "name": "stone-wall",
+    "position": {
+     "x": -2.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 55
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 57,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": 0.5,
+     "y": -1.5
+    },
+    "direction": 6
+   },
+   {
+    "entity_number": 58,
+    "name": "pipe-to-ground",
+    "position": {
+     "x": -0.5,
+     "y": -1.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 59,
+    "name": "stone-wall",
+    "position": {
+     "x": -0.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 60,
+    "name": "stone-wall",
+    "position": {
+     "x": 0.5,
+     "y": -2.5
+    }
    },
    {
     "entity_number": 61,
-    "name": "straight-rail",
+    "name": "small-electric-pole",
     "position": {
-     "x": -2,
-     "y": -4
+     "x": 2.5,
+     "y": -1.5
     },
-    "direction": 2
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 12
+       },
+       {
+        "entity_id": 62
+       },
+       {
+        "entity_id": 63
+       },
+       {
+        "entity_id": 67
+       },
+       {
+        "entity_id": 69
+       }
+      ]
+     }
+    }
    },
    {
     "entity_number": 62,
-    "name": "straight-rail",
+    "name": "stone-wall",
     "position": {
-     "x": 0,
-     "y": -4
+     "x": 2.5,
+     "y": -2.5
     },
-    "direction": 2
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 61
+       }
+      ]
+     }
+    }
    },
    {
     "entity_number": 63,
-    "name": "gate",
+    "name": "stone-wall",
     "position": {
-     "x": 0.5,
-     "y": -4.5
+     "x": 1.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 61
+       }
+      ]
+     }
     }
    },
    {
     "entity_number": 64,
     "name": "gate",
     "position": {
-     "x": 0.5,
-     "y": -3.5
-    }
+     "x": 4.5,
+     "y": -2.5
+    },
+    "direction": 2
    },
    {
     "entity_number": 65,
-    "name": "straight-rail",
+    "name": "gate",
     "position": {
-     "x": 2,
-     "y": -4
+     "x": 3.5,
+     "y": -2.5
     },
     "direction": 2
    },
@@ -677,48 +810,87 @@
     "name": "straight-rail",
     "position": {
      "x": 4,
-     "y": -4
-    },
-    "direction": 2
+     "y": -2
+    }
    },
    {
     "entity_number": 67,
-    "name": "gate",
+    "name": "stone-wall",
     "position": {
-     "x": 5.5,
-     "y": -4.5
+     "x": 6.5,
+     "y": -2.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "="
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 61
+       }
+      ]
+     }
     }
    },
    {
     "entity_number": 68,
-    "name": "gate",
+    "name": "stone-wall",
     "position": {
      "x": 5.5,
-     "y": -3.5
+     "y": -2.5
     }
    },
    {
     "entity_number": 69,
-    "name": "straight-rail",
+    "name": "rail-chain-signal",
     "position": {
-     "x": 6,
-     "y": -4
+     "x": 5.5,
+     "y": -1.5
     },
-    "direction": 2
+    "direction": 4,
+    "control_behavior": {
+     "red_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     },
+     "orange_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 61
+       }
+      ]
+     }
+    }
    },
    {
     "entity_number": 70,
-    "name": "stone-wall",
+    "name": "small-electric-pole",
     "position": {
-     "x": -6.5,
-     "y": -2.5
+     "x": 8.5,
+     "y": -1.5
     }
    },
    {
     "entity_number": 71,
     "name": "stone-wall",
     "position": {
-     "x": -5.5,
+     "x": 8.5,
      "y": -2.5
     }
    },
@@ -726,836 +898,715 @@
     "entity_number": 72,
     "name": "stone-wall",
     "position": {
-     "x": -6.5,
-     "y": -1.5
+     "x": 7.5,
+     "y": -2.5
     }
    },
    {
     "entity_number": 73,
-    "name": "stone-wall",
+    "name": "pipe-to-ground",
     "position": {
-     "x": -5.5,
+     "x": 10.5,
      "y": -1.5
-    }
-   },
-   {
-    "entity_number": 74,
-    "name": "gun-turret",
-    "position": {
-     "x": -4,
-     "y": -1
     },
     "direction": 6
    },
    {
-    "entity_number": 75,
-    "name": "underground-belt",
+    "entity_number": 74,
+    "name": "pipe-to-ground",
     "position": {
-     "x": -2.5,
-     "y": -1.5
-    },
-    "type": "output"
-   },
-   {
-    "entity_number": 76,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": -2.5
-    },
-    "type": "input"
-   },
-   {
-    "entity_number": 77,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": -2.5
-    },
-    "direction": 4,
-    "type": "output"
-   },
-   {
-    "entity_number": 78,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": -1.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 79,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -2.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 80
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 80,
-    "name": "small-electric-pole",
-    "position": {
-     "x": -0.5,
-     "y": -2.5
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 79
-       },
-       {
-        "entity_id": 86
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 81,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": -1.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "="
-     }
-    }
-   },
-   {
-    "entity_number": 82,
-    "name": "gate",
-    "position": {
-     "x": 2.5,
+     "x": 9.5,
      "y": -1.5
     },
     "direction": 2
    },
    {
-    "entity_number": 83,
-    "name": "gate",
+    "entity_number": 75,
+    "name": "stone-wall",
     "position": {
-     "x": 1.5,
+     "x": 10.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 76,
+    "name": "stone-wall",
+    "position": {
+     "x": 9.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 77,
+    "name": "stone-wall",
+    "position": {
+     "x": 11.5,
      "y": -1.5
+    }
+   },
+   {
+    "entity_number": 78,
+    "name": "stone-wall",
+    "position": {
+     "x": 11.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 79,
+    "name": "underground-belt",
+    "position": {
+     "x": -12.5,
+     "y": -0.5
+    },
+    "direction": 2,
+    "type": "input"
+   },
+   {
+    "entity_number": 80,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 81,
+    "name": "underground-belt",
+    "position": {
+     "x": -12.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "output"
+   },
+   {
+    "entity_number": 82,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": -0.5
+    }
+   },
+   {
+    "entity_number": 83,
+    "name": "transport-belt",
+    "position": {
+     "x": -9.5,
+     "y": -0.5
     },
     "direction": 2
    },
    {
     "entity_number": 84,
-    "name": "gate",
+    "name": "underground-belt",
     "position": {
-     "x": 3.5,
-     "y": -1.5
+     "x": -9.5,
+     "y": 0.5
     },
-    "direction": 2
+    "direction": 6,
+    "type": "output"
    },
    {
     "entity_number": 85,
-    "name": "gate",
+    "name": "underground-belt",
     "position": {
-     "x": 4.5,
-     "y": -1.5
+     "x": -10.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "input"
+   },
+   {
+    "entity_number": 86,
+    "name": "underground-belt",
+    "position": {
+     "x": -10.5,
+     "y": -0.5
+    },
+    "direction": 2,
+    "type": "output"
+   },
+   {
+    "entity_number": 87,
+    "name": "transport-belt",
+    "position": {
+     "x": -8.5,
+     "y": -0.5
     },
     "direction": 2
    },
    {
-    "entity_number": 86,
-    "name": "small-electric-pole",
-    "position": {
-     "x": 6.5,
-     "y": -2.5
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 80
-       },
-       {
-        "entity_id": 52
-       },
-       {
-        "entity_id": 51
-       },
-       {
-        "entity_id": 87
-       },
-       {
-        "entity_id": 88
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 87,
-    "name": "stone-wall",
-    "position": {
-     "x": 5.5,
-     "y": -1.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "="
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 86
-       }
-      ]
-     }
-    }
-   },
-   {
     "entity_number": 88,
-    "name": "stone-wall",
+    "name": "transport-belt",
     "position": {
-     "x": 5.5,
-     "y": -2.5
+     "x": -7.5,
+     "y": -0.5
     },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 86
-       }
-      ]
-     }
-    }
+    "direction": 2
    },
    {
     "entity_number": 89,
-    "name": "stone-wall",
+    "name": "burner-inserter",
     "position": {
-     "x": -6.5,
-     "y": -0.5
+     "x": -7.5,
+     "y": 0.5
     }
    },
    {
     "entity_number": 90,
-    "name": "stone-wall",
+    "name": "burner-inserter",
     "position": {
-     "x": -6.5,
+     "x": -8.5,
      "y": 0.5
     }
    },
    {
     "entity_number": 91,
-    "name": "stone-wall",
+    "name": "transport-belt",
     "position": {
-     "x": -5.5,
-     "y": -0.5
-    }
-   },
-   {
-    "entity_number": 92,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 0.5
-    }
-   },
-   {
-    "entity_number": 93,
-    "name": "gun-turret",
-    "position": {
-     "x": -4,
-     "y": 1
-    },
-    "direction": 6
-   },
-   {
-    "entity_number": 94,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
+     "x": -6.5,
      "y": -0.5
     },
     "direction": 2
    },
    {
+    "entity_number": 92,
+    "name": "underground-belt",
+    "position": {
+     "x": -5.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "output"
+   },
+   {
+    "entity_number": 93,
+    "name": "underground-belt",
+    "position": {
+     "x": -5.5,
+     "y": -0.5
+    },
+    "direction": 2,
+    "type": "input"
+   },
+   {
+    "entity_number": 94,
+    "name": "underground-belt",
+    "position": {
+     "x": -6.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "input"
+   },
+   {
     "entity_number": 95,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": 0
+    }
+   },
+   {
+    "entity_number": 96,
     "name": "transport-belt",
     "position": {
      "x": -1.5,
      "y": -0.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 96,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
-     "y": 0.5
     },
     "direction": 2
    },
    {
     "entity_number": 97,
-    "name": "transport-belt",
+    "name": "underground-belt",
     "position": {
      "x": -1.5,
      "y": 0.5
     },
-    "direction": 4
+    "direction": 6,
+    "type": "output"
    },
    {
     "entity_number": 98,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 0.5,
-     "y": -0.5
-    }
+     "x": -2.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "input"
    },
    {
     "entity_number": 99,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 0.5,
-     "y": 0.5
-    }
+     "x": -2.5,
+     "y": -0.5
+    },
+    "direction": 2,
+    "type": "output"
    },
    {
     "entity_number": 100,
-    "name": "stone-wall",
+    "name": "transport-belt",
     "position": {
-     "x": 5.5,
+     "x": -0.5,
      "y": -0.5
-    }
+    },
+    "direction": 2
    },
    {
     "entity_number": 101,
-    "name": "stone-wall",
+    "name": "transport-belt",
     "position": {
-     "x": 5.5,
-     "y": 0.5
-    }
+     "x": 0.5,
+     "y": -0.5
+    },
+    "direction": 2
    },
    {
     "entity_number": 102,
-    "name": "stone-wall",
+    "name": "burner-inserter",
     "position": {
-     "x": -6.5,
-     "y": 2.5
+     "x": 0.5,
+     "y": 0.5
     }
    },
    {
     "entity_number": 103,
-    "name": "stone-wall",
+    "name": "burner-inserter",
     "position": {
-     "x": -5.5,
-     "y": 2.5
+     "x": -0.5,
+     "y": 0.5
     }
    },
    {
     "entity_number": 104,
-    "name": "stone-wall",
+    "name": "transport-belt",
     "position": {
-     "x": -6.5,
-     "y": 1.5
-    }
+     "x": 1.5,
+     "y": -0.5
+    },
+    "direction": 2
    },
    {
     "entity_number": 105,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": -5.5,
-     "y": 1.5
-    }
+     "x": 2.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "output"
    },
    {
     "entity_number": 106,
     "name": "underground-belt",
     "position": {
-     "x": -2.5,
-     "y": 2.5
+     "x": 2.5,
+     "y": -0.5
     },
-    "type": "output"
+    "direction": 2,
+    "type": "input"
    },
    {
     "entity_number": 107,
     "name": "underground-belt",
     "position": {
-     "x": -1.5,
-     "y": 2.5
+     "x": 1.5,
+     "y": 0.5
     },
-    "direction": 4,
+    "direction": 6,
     "type": "input"
    },
    {
     "entity_number": 108,
-    "name": "underground-belt",
+    "name": "straight-rail",
     "position": {
-     "x": -2.5,
-     "y": 1.5
-    },
-    "type": "input"
+     "x": 4,
+     "y": 0
+    }
    },
    {
     "entity_number": 109,
-    "name": "transport-belt",
+    "name": "underground-belt",
     "position": {
-     "x": -1.5,
-     "y": 1.5
+     "x": 6.5,
+     "y": 0.5
     },
-    "direction": 4
+    "direction": 6,
+    "type": "output"
    },
    {
     "entity_number": 110,
-    "name": "small-electric-pole",
+    "name": "transport-belt",
     "position": {
-     "x": -0.5,
-     "y": 2.5
+     "x": 6.5,
+     "y": -0.5
     },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 111
-       },
-       {
-        "entity_id": 112
-       },
-       {
-        "entity_id": 119
-       },
-       {
-        "entity_id": 146
-       },
-       {
-        "entity_id": 147
-       }
-      ]
-     }
-    }
+    "direction": 2
    },
    {
     "entity_number": 111,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 0.5,
-     "y": 2.5
+     "x": 5.5,
+     "y": -0.5
     },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 110
-       }
-      ]
-     }
-    }
+    "direction": 2,
+    "type": "output"
    },
    {
     "entity_number": 112,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 0.5,
-     "y": 1.5
+     "x": 5.5,
+     "y": 0.5
     },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "="
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 110
-       }
-      ]
-     }
-    }
+    "direction": 6,
+    "type": "input"
    },
    {
     "entity_number": 113,
-    "name": "gate",
+    "name": "transport-belt",
     "position": {
-     "x": 2.5,
-     "y": 1.5
+     "x": 8.5,
+     "y": -0.5
     },
     "direction": 2
    },
    {
     "entity_number": 114,
-    "name": "gate",
+    "name": "burner-inserter",
     "position": {
-     "x": 1.5,
-     "y": 1.5
-    },
-    "direction": 2
+     "x": 8.5,
+     "y": 0.5
+    }
    },
    {
     "entity_number": 115,
-    "name": "gate",
+    "name": "burner-inserter",
     "position": {
-     "x": 4.5,
-     "y": 1.5
-    },
-    "direction": 2
+     "x": 7.5,
+     "y": 0.5
+    }
    },
    {
     "entity_number": 116,
-    "name": "gate",
+    "name": "transport-belt",
     "position": {
-     "x": 3.5,
-     "y": 1.5
+     "x": 7.5,
+     "y": -0.5
     },
     "direction": 2
    },
    {
     "entity_number": 117,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 5.5,
-     "y": 2.5
+     "x": 10.5,
+     "y": -0.5
     },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 119
-       }
-      ]
-     }
-    }
+    "direction": 2,
+    "type": "input"
    },
    {
     "entity_number": 118,
-    "name": "stone-wall",
+    "name": "underground-belt",
     "position": {
-     "x": 5.5,
-     "y": 1.5
+     "x": 10.5,
+     "y": 0.5
     },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "="
-     }
-    }
+    "direction": 6,
+    "type": "output"
    },
    {
     "entity_number": 119,
-    "name": "small-electric-pole",
+    "name": "transport-belt",
     "position": {
-     "x": 6.5,
-     "y": 2.5
+     "x": 9.5,
+     "y": -0.5
     },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 110
-       },
-       {
-        "entity_id": 117
-       }
-      ]
-     }
-    }
+    "direction": 2
    },
    {
     "entity_number": 120,
-    "name": "straight-rail",
+    "name": "underground-belt",
     "position": {
-     "x": -8,
-     "y": 4
+     "x": 9.5,
+     "y": 0.5
     },
-    "direction": 2
+    "direction": 6,
+    "type": "input"
    },
    {
     "entity_number": 121,
-    "name": "straight-rail",
+    "name": "stone-wall",
     "position": {
-     "x": -6,
-     "y": 4
-    },
-    "direction": 2
+     "x": 11.5,
+     "y": 0.5
+    }
    },
    {
     "entity_number": 122,
-    "name": "gate",
+    "name": "stone-wall",
     "position": {
-     "x": -5.5,
-     "y": 3.5
+     "x": 11.5,
+     "y": -0.5
     }
    },
    {
     "entity_number": 123,
-    "name": "gate",
+    "name": "underground-belt",
     "position": {
-     "x": -6.5,
-     "y": 3.5
-    }
+     "x": 12.5,
+     "y": 0.5
+    },
+    "direction": 6,
+    "type": "input"
    },
    {
     "entity_number": 124,
-    "name": "gate",
+    "name": "underground-belt",
     "position": {
-     "x": -6.5,
-     "y": 4.5
-    }
+     "x": 12.5,
+     "y": -0.5
+    },
+    "direction": 2,
+    "type": "output"
    },
    {
     "entity_number": 125,
-    "name": "gate",
+    "name": "stone-wall",
     "position": {
-     "x": -5.5,
-     "y": 4.5
+     "x": -11.5,
+     "y": 1.5
     }
    },
    {
     "entity_number": 126,
-    "name": "straight-rail",
+    "name": "stone-wall",
     "position": {
-     "x": -4,
-     "y": 4
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 127,
-    "name": "straight-rail",
-    "position": {
-     "x": -2,
-     "y": 4
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 128,
-    "name": "gate",
-    "position": {
-     "x": 0.5,
-     "y": 3.5
+     "x": -11.5,
+     "y": 2.5
     }
    },
    {
-    "entity_number": 129,
-    "name": "gate",
+    "entity_number": 127,
+    "name": "gun-turret",
     "position": {
-     "x": 0.5,
-     "y": 4.5
+     "x": -9,
+     "y": 2
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 128,
+    "name": "gun-turret",
+    "position": {
+     "x": -7,
+     "y": 2
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 129,
+    "name": "rail-chain-signal",
+    "position": {
+     "x": -5.5,
+     "y": 2.5
+    },
+    "control_behavior": {
+     "red_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     },
+     "orange_output_signal": {
+      "type": "virtual",
+      "name": "signal-T"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 150
+       }
+      ]
+     }
     }
    },
    {
     "entity_number": 130,
     "name": "straight-rail",
     "position": {
-     "x": 0,
-     "y": 4
-    },
-    "direction": 2
+     "x": -4,
+     "y": 2
+    }
    },
    {
     "entity_number": 131,
-    "name": "straight-rail",
+    "name": "gun-turret",
     "position": {
-     "x": 2,
-     "y": 4
+     "x": -1,
+     "y": 2
     },
-    "direction": 2
+    "direction": 4
    },
    {
     "entity_number": 132,
-    "name": "straight-rail",
+    "name": "gun-turret",
     "position": {
-     "x": 4,
-     "y": 4
+     "x": 1,
+     "y": 2
     },
-    "direction": 2
+    "direction": 4
    },
    {
     "entity_number": 133,
     "name": "straight-rail",
     "position": {
-     "x": 6,
-     "y": 4
-    },
-    "direction": 2
+     "x": 4,
+     "y": 2
+    }
    },
    {
     "entity_number": 134,
-    "name": "gate",
+    "name": "gun-turret",
     "position": {
-     "x": 5.5,
-     "y": 4.5
-    }
+     "x": 7,
+     "y": 2
+    },
+    "direction": 4
    },
    {
     "entity_number": 135,
-    "name": "gate",
+    "name": "gun-turret",
     "position": {
-     "x": 5.5,
-     "y": 3.5
-    }
+     "x": 9,
+     "y": 2
+    },
+    "direction": 4
    },
    {
     "entity_number": 136,
-    "name": "rail-chain-signal",
+    "name": "stone-wall",
     "position": {
-     "x": -7.5,
-     "y": 5.5
-    },
-    "direction": 6,
-    "control_behavior": {
-     "red_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     },
-     "orange_output_signal": {
-      "type": "virtual",
-      "name": "signal-T"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 137
-       }
-      ]
-     }
+     "x": 11.5,
+     "y": 2.5
     }
    },
    {
     "entity_number": 137,
     "name": "stone-wall",
     "position": {
-     "x": -6.5,
-     "y": 5.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "\u2260"
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 136
-       },
-       {
-        "entity_id": 139
-       }
-      ]
-     }
+     "x": 11.5,
+     "y": 1.5
     }
    },
    {
     "entity_number": 138,
     "name": "stone-wall",
     "position": {
-     "x": -6.5,
-     "y": 6.5
+     "x": -12.5,
+     "y": 3.5
     }
    },
    {
     "entity_number": 139,
     "name": "stone-wall",
     "position": {
+     "x": -12.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 140,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 141,
+    "name": "stone-wall",
+    "position": {
+     "x": -11.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 142,
+    "name": "stone-wall",
+    "position": {
+     "x": -10.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 143,
+    "name": "stone-wall",
+    "position": {
+     "x": -10.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 144,
+    "name": "stone-wall",
+    "position": {
+     "x": -9.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 145,
+    "name": "stone-wall",
+    "position": {
+     "x": -9.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 146,
+    "name": "stone-wall",
+    "position": {
+     "x": -8.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 147,
+    "name": "stone-wall",
+    "position": {
+     "x": -8.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 148,
+    "name": "stone-wall",
+    "position": {
+     "x": -7.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 149,
+    "name": "stone-wall",
+    "position": {
+     "x": -7.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 150,
+    "name": "stone-wall",
+    "position": {
      "x": -5.5,
-     "y": 5.5
+     "y": 3.5
     },
     "control_behavior": {
      "circuit_open_gate": true,
@@ -1573,74 +1624,441 @@
      "1": {
       "red": [
        {
-        "entity_id": 137
+        "entity_id": 129
+       },
+       {
+        "entity_id": 151
        }
       ]
      }
     }
    },
    {
-    "entity_number": 140,
+    "entity_number": 151,
     "name": "stone-wall",
     "position": {
      "x": -5.5,
-     "y": 6.5
+     "y": 4.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 150
+       }
+      ]
+     }
     }
    },
    {
-    "entity_number": 141,
-    "name": "gun-turret",
+    "entity_number": 152,
+    "name": "stone-wall",
+    "position": {
+     "x": -6.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 153,
+    "name": "stone-wall",
+    "position": {
+     "x": -6.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 154,
+    "name": "straight-rail",
     "position": {
      "x": -4,
-     "y": 7
-    },
-    "direction": 6
+     "y": 4
+    }
    },
    {
-    "entity_number": 142,
-    "name": "underground-belt",
+    "entity_number": 155,
+    "name": "gate",
     "position": {
-     "x": -2.5,
-     "y": 6.5
+     "x": -3.5,
+     "y": 4.5
     },
-    "type": "output"
+    "direction": 2
    },
    {
-    "entity_number": 143,
-    "name": "underground-belt",
+    "entity_number": 156,
+    "name": "gate",
     "position": {
-     "x": -2.5,
-     "y": 5.5
+     "x": -3.5,
+     "y": 3.5
     },
-    "type": "input"
+    "direction": 2
    },
    {
-    "entity_number": 144,
-    "name": "underground-belt",
+    "entity_number": 157,
+    "name": "gate",
+    "position": {
+     "x": -4.5,
+     "y": 4.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 158,
+    "name": "gate",
+    "position": {
+     "x": -4.5,
+     "y": 3.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 159,
+    "name": "stone-wall",
     "position": {
      "x": -1.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 160,
+    "name": "stone-wall",
+    "position": {
+     "x": -1.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 161,
+    "name": "stone-wall",
+    "position": {
+     "x": -2.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 162,
+    "name": "stone-wall",
+    "position": {
+     "x": -2.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 163,
+    "name": "stone-wall",
+    "position": {
+     "x": 0.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 164,
+    "name": "stone-wall",
+    "position": {
+     "x": 0.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 165,
+    "name": "stone-wall",
+    "position": {
+     "x": -0.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 166,
+    "name": "stone-wall",
+    "position": {
+     "x": -0.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 167,
+    "name": "stone-wall",
+    "position": {
+     "x": 2.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 168,
+    "name": "stone-wall",
+    "position": {
+     "x": 2.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 169,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 170,
+    "name": "stone-wall",
+    "position": {
+     "x": 1.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 171,
+    "name": "gate",
+    "position": {
+     "x": 4.5,
+     "y": 4.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 172,
+    "name": "gate",
+    "position": {
+     "x": 3.5,
+     "y": 4.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 173,
+    "name": "gate",
+    "position": {
+     "x": 3.5,
+     "y": 3.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 174,
+    "name": "gate",
+    "position": {
+     "x": 4.5,
+     "y": 3.5
+    },
+    "direction": 2
+   },
+   {
+    "entity_number": 175,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": 4
+    }
+   },
+   {
+    "entity_number": 176,
+    "name": "stone-wall",
+    "position": {
+     "x": 6.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 177,
+    "name": "stone-wall",
+    "position": {
+     "x": 6.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 178,
+    "name": "stone-wall",
+    "position": {
+     "x": 5.5,
+     "y": 3.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 179
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 179,
+    "name": "stone-wall",
+    "position": {
+     "x": 5.5,
+     "y": 4.5
+    },
+    "control_behavior": {
+     "circuit_open_gate": true,
+     "circuit_read_sensor": false,
+     "circuit_condition": {
+      "first_signal": {
+       "type": "virtual",
+       "name": "signal-T"
+      },
+      "constant": 0,
+      "comparator": "\u2260"
+     }
+    },
+    "connections": {
+     "1": {
+      "red": [
+       {
+        "entity_id": 178
+       },
+       {
+        "entity_id": 194
+       }
+      ]
+     }
+    }
+   },
+   {
+    "entity_number": 180,
+    "name": "stone-wall",
+    "position": {
+     "x": 8.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 181,
+    "name": "stone-wall",
+    "position": {
+     "x": 8.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 182,
+    "name": "stone-wall",
+    "position": {
+     "x": 7.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 183,
+    "name": "stone-wall",
+    "position": {
+     "x": 7.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 184,
+    "name": "stone-wall",
+    "position": {
+     "x": 10.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 185,
+    "name": "stone-wall",
+    "position": {
+     "x": 10.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 186,
+    "name": "stone-wall",
+    "position": {
+     "x": 9.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 187,
+    "name": "stone-wall",
+    "position": {
+     "x": 9.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 188,
+    "name": "stone-wall",
+    "position": {
+     "x": 12.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 189,
+    "name": "stone-wall",
+    "position": {
+     "x": 12.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 190,
+    "name": "stone-wall",
+    "position": {
+     "x": 11.5,
+     "y": 4.5
+    }
+   },
+   {
+    "entity_number": 191,
+    "name": "stone-wall",
+    "position": {
+     "x": 11.5,
+     "y": 3.5
+    }
+   },
+   {
+    "entity_number": 192,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": 6
+    }
+   },
+   {
+    "entity_number": 193,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": 6
+    }
+   },
+   {
+    "entity_number": 194,
+    "name": "rail-chain-signal",
+    "position": {
+     "x": 5.5,
      "y": 5.5
     },
     "direction": 4,
-    "type": "output"
-   },
-   {
-    "entity_number": 145,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": 6.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 146,
-    "name": "rail-chain-signal",
-    "position": {
-     "x": -0.5,
-     "y": 5.5
-    },
-    "direction": 6,
     "control_behavior": {
      "red_output_signal": {
       "type": "virtual",
@@ -1655,1119 +2073,745 @@
      "1": {
       "red": [
        {
-        "entity_id": 110
+        "entity_id": 179
        }
       ]
      }
-    }
-   },
-   {
-    "entity_number": 147,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 6.5
-    },
-    "control_behavior": {
-     "circuit_open_gate": true,
-     "circuit_read_sensor": false,
-     "circuit_condition": {
-      "first_signal": {
-       "type": "virtual",
-       "name": "signal-T"
-      },
-      "constant": 0,
-      "comparator": "="
-     }
-    },
-    "connections": {
-     "1": {
-      "red": [
-       {
-        "entity_id": 110
-       }
-      ]
-     }
-    }
-   },
-   {
-    "entity_number": 148,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 5.5
-    }
-   },
-   {
-    "entity_number": 149,
-    "name": "gate",
-    "position": {
-     "x": 1.5,
-     "y": 6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 150,
-    "name": "gate",
-    "position": {
-     "x": 2.5,
-     "y": 6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 151,
-    "name": "gate",
-    "position": {
-     "x": 4.5,
-     "y": 6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 152,
-    "name": "gate",
-    "position": {
-     "x": 3.5,
-     "y": 6.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 153,
-    "name": "stone-wall",
-    "position": {
-     "x": 5.5,
-     "y": 5.5
-    }
-   },
-   {
-    "entity_number": 154,
-    "name": "stone-wall",
-    "position": {
-     "x": 5.5,
-     "y": 6.5
-    }
-   },
-   {
-    "entity_number": 155,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 7.5
-    }
-   },
-   {
-    "entity_number": 156,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 8.5
-    }
-   },
-   {
-    "entity_number": 157,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 7.5
-    }
-   },
-   {
-    "entity_number": 158,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 8.5
-    }
-   },
-   {
-    "entity_number": 159,
-    "name": "gun-turret",
-    "position": {
-     "x": -4,
-     "y": 9
-    },
-    "direction": 6
-   },
-   {
-    "entity_number": 160,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
-     "y": 7.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 161,
-    "name": "burner-inserter",
-    "position": {
-     "x": -2.5,
-     "y": 8.5
-    },
-    "direction": 2
-   },
-   {
-    "entity_number": 162,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": 7.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 163,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": 8.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 164,
-    "name": "small-electric-pole",
-    "position": {
-     "x": -0.5,
-     "y": 8.5
-    }
-   },
-   {
-    "entity_number": 165,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 8.5
-    }
-   },
-   {
-    "entity_number": 166,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 7.5
-    }
-   },
-   {
-    "entity_number": 167,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 10.5
-    }
-   },
-   {
-    "entity_number": 168,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 10.5
-    }
-   },
-   {
-    "entity_number": 169,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 9.5
-    }
-   },
-   {
-    "entity_number": 170,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 9.5
-    }
-   },
-   {
-    "entity_number": 171,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": 10.5
-    },
-    "direction": 4,
-    "type": "input"
-   },
-   {
-    "entity_number": 172,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": 10.5
-    },
-    "type": "output"
-   },
-   {
-    "entity_number": 173,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": 9.5
-    },
-    "type": "input"
-   },
-   {
-    "entity_number": 174,
-    "name": "transport-belt",
-    "position": {
-     "x": -1.5,
-     "y": 9.5
-    },
-    "direction": 4
-   },
-   {
-    "entity_number": 175,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 10.5
-    }
-   },
-   {
-    "entity_number": 176,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 9.5
-    }
-   },
-   {
-    "entity_number": 177,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 12.5
-    }
-   },
-   {
-    "entity_number": 178,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 12.5
-    }
-   },
-   {
-    "entity_number": 179,
-    "name": "stone-wall",
-    "position": {
-     "x": -6.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 180,
-    "name": "stone-wall",
-    "position": {
-     "x": -5.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 181,
-    "name": "stone-wall",
-    "position": {
-     "x": -4.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 182,
-    "name": "stone-wall",
-    "position": {
-     "x": -3.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 183,
-    "name": "underground-belt",
-    "position": {
-     "x": -1.5,
-     "y": 12.5
-    },
-    "direction": 4,
-    "type": "output"
-   },
-   {
-    "entity_number": 184,
-    "name": "underground-belt",
-    "position": {
-     "x": -2.5,
-     "y": 12.5
-    },
-    "type": "input"
-   },
-   {
-    "entity_number": 185,
-    "name": "stone-wall",
-    "position": {
-     "x": -2.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 186,
-    "name": "stone-wall",
-    "position": {
-     "x": -1.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 187,
-    "name": "stone-wall",
-    "position": {
-     "x": -0.5,
-     "y": 11.5
-    }
-   },
-   {
-    "entity_number": 188,
-    "name": "stone-wall",
-    "position": {
-     "x": 0.5,
-     "y": 11.5
     }
    }
   ],
   "tiles": [
    {
     "position": {
-     "x": 1,
-     "y": -13
+     "x": -13,
+     "y": -7
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 1,
-     "y": -12
+     "x": -13,
+     "y": -6
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 1,
-     "y": -11
+     "x": -13,
+     "y": -5
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 1,
-     "y": -10
+     "x": -13,
+     "y": -4
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 1,
-     "y": -9
+     "x": -12,
+     "y": -7
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 1,
-     "y": -8
+     "x": -12,
+     "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -12,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -11,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -10,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -9,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -8,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -7,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -6,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -5,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -4,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -3,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -2,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": -1,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -7
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -6
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -5
+    },
+    "name": "refined-hazard-concrete-right"
+   },
+   {
+    "position": {
+     "x": 0,
+     "y": -4
+    },
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 1,
      "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 1,
      "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 1,
      "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 1,
      "y": -4
     },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": -3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": -2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": -1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 0
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 4
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 5
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 6
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 7
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 8
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 1,
-     "y": 12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -13
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -8
-    },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 2,
      "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 2,
      "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 2,
      "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 2,
      "y": -4
     },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": -1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 0
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 4
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 5
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 6
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 7
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 8
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 2,
-     "y": 12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -13
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -8
-    },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 3,
      "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 3,
      "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 3,
      "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 3,
      "y": -4
     },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": -1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 0
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 1
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 2
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 3
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 4
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 5
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 6
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 7
-    },
-    "name": "refined-hazard-concrete-left"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 8
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 3,
-     "y": 12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -13
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -12
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -11
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -10
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": -8
-    },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 4,
      "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 4,
      "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 4,
      "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
      "x": 4,
      "y": -4
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": -3
+     "x": 5,
+     "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": -2
+     "x": 5,
+     "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": -1
+     "x": 5,
+     "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 0
+     "x": 5,
+     "y": -4
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 1
+     "x": 6,
+     "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 2
+     "x": 6,
+     "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 3
+     "x": 6,
+     "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 4
+     "x": 6,
+     "y": -4
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 5
+     "x": 7,
+     "y": -7
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 6
+     "x": 7,
+     "y": -6
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 7
+     "x": 7,
+     "y": -5
     },
-    "name": "refined-hazard-concrete-left"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 8
+     "x": 7,
+     "y": -4
     },
-    "name": "refined-concrete"
+    "name": "refined-hazard-concrete-right"
    },
    {
     "position": {
-     "x": 4,
-     "y": 9
-    },
-    "name": "refined-concrete"
-   },
-   {
-    "position": {
-     "x": 4,
-     "y": 10
+     "x": 8,
+     "y": -7
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 4,
-     "y": 11
+     "x": 8,
+     "y": -6
     },
     "name": "refined-concrete"
    },
    {
     "position": {
-     "x": 4,
-     "y": 12
+     "x": 8,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 8,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 9,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 10,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 11,
+     "y": -4
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -7
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -6
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -5
+    },
+    "name": "refined-concrete"
+   },
+   {
+    "position": {
+     "x": 12,
+     "y": -4
     },
     "name": "refined-concrete"
    }
   ],
   "item": "blueprint",
   "label": "Blox Wall Train Gate",
-  "version": 73018114051
+  "version": 73018245120
  }
 }
