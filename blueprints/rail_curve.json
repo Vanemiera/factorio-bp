@@ -1,0 +1,190 @@
+{
+ "blueprint": {
+  "icons": [
+   {
+    "signal": {
+     "type": "item",
+     "name": "rail"
+    },
+    "index": 1
+   },
+   {
+    "signal": {
+     "type": "virtual",
+     "name": "signal-L"
+    },
+    "index": 2
+   }
+  ],
+  "entities": [
+   {
+    "entity_number": 1,
+    "name": "straight-rail",
+    "position": {
+     "x": -8,
+     "y": -10
+    }
+   },
+   {
+    "entity_number": 2,
+    "name": "curved-rail",
+    "position": {
+     "x": 1,
+     "y": -7
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 3,
+    "name": "curved-rail",
+    "position": {
+     "x": -7,
+     "y": -5
+    },
+    "direction": 4
+   },
+   {
+    "entity_number": 4,
+    "name": "straight-rail",
+    "position": {
+     "x": 4,
+     "y": -4
+    },
+    "direction": 5
+   },
+   {
+    "entity_number": 5,
+    "name": "curved-rail",
+    "position": {
+     "x": 7,
+     "y": -1
+    },
+    "direction": 7
+   },
+   {
+    "entity_number": 6,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": -2
+    },
+    "direction": 5
+   },
+   {
+    "entity_number": 7,
+    "name": "straight-rail",
+    "position": {
+     "x": -4,
+     "y": 0
+    },
+    "direction": 1
+   },
+   {
+    "entity_number": 8,
+    "name": "small-lamp",
+    "position": {
+     "x": -0.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 9,
+    "name": "big-electric-pole",
+    "position": {
+     "x": 1,
+     "y": -1
+    }
+   },
+   {
+    "entity_number": 10,
+    "name": "small-lamp",
+    "position": {
+     "x": 2.5,
+     "y": -2.5
+    }
+   },
+   {
+    "entity_number": 11,
+    "name": "straight-rail",
+    "position": {
+     "x": -2,
+     "y": 0
+    },
+    "direction": 5
+   },
+   {
+    "entity_number": 12,
+    "name": "straight-rail",
+    "position": {
+     "x": -2,
+     "y": 2
+    },
+    "direction": 1
+   },
+   {
+    "entity_number": 13,
+    "name": "small-lamp",
+    "position": {
+     "x": -0.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 14,
+    "name": "small-lamp",
+    "position": {
+     "x": 2.5,
+     "y": 0.5
+    }
+   },
+   {
+    "entity_number": 15,
+    "name": "straight-rail",
+    "position": {
+     "x": 0,
+     "y": 2
+    },
+    "direction": 5
+   },
+   {
+    "entity_number": 16,
+    "name": "straight-rail",
+    "position": {
+     "x": 0,
+     "y": 4
+    },
+    "direction": 1
+   },
+   {
+    "entity_number": 17,
+    "name": "straight-rail",
+    "position": {
+     "x": 2,
+     "y": 4
+    },
+    "direction": 5
+   },
+   {
+    "entity_number": 18,
+    "name": "curved-rail",
+    "position": {
+     "x": 5,
+     "y": 7
+    },
+    "direction": 7
+   },
+   {
+    "entity_number": 19,
+    "name": "straight-rail",
+    "position": {
+     "x": 10,
+     "y": 8
+    },
+    "direction": 2
+   }
+  ],
+  "item": "blueprint",
+  "label": "Rail Curve",
+  "version": 73018245120
+ }
+}
